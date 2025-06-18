@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVGenerate.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70a745c3f7f3338fcf72a0ad891eb7a719e2ab33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14a35ec29f304241d58fab682bbe2ef6ada46c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVGenerate.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVGenerate.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
