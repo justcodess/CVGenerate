@@ -10,3 +10,15 @@
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Shared/obj/Debug/net8.0/refint/CVGenerate.Shared.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Shared/obj/Debug/net8.0/CVGenerate.Shared.pdb
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Shared/obj/Debug/net8.0/ref/CVGenerate.Shared.dll
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\bin\Debug\net8.0\CVGenerate.Shared.deps.json
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\bin\Debug\net8.0\CVGenerate.Shared.dll
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\bin\Debug\net8.0\CVGenerate.Shared.pdb
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.AssemblyInfoInputs.cache
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.AssemblyInfo.cs
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.sourcelink.json
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.dll
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\refint\CVGenerate.Shared.dll
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\CVGenerate.Shared.pdb
+C:\Users\zeyne\OneDrive\Belgeler\GitHub\CVGenerate\CVGenerate\src\CVGenerate.Shared\obj\Debug\net8.0\ref\CVGenerate.Shared.dll

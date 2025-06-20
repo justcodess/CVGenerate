@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Application/CVGenerate.Application.csproj": {}
+    "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Application\\CVGenerate.Application.csproj": {}
   },
   "projects": {
-    "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Application/CVGenerate.Application.csproj": {
+    "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Application\\CVGenerate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Application/CVGenerate.Application.csproj",
+        "projectUniqueName": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Application\\CVGenerate.Application.csproj",
         "projectName": "CVGenerate.Application",
-        "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Application/CVGenerate.Application.csproj",
-        "packagesPath": "/Users/enes/.nuget/packages/",
-        "outputPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Application/obj/",
+        "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Application\\CVGenerate.Application.csproj",
+        "packagesPath": "C:\\Users\\zeyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/enes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zeyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj": {
-                "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj"
+              "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj": {
+                "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj"
               },
-              "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/CVGenerate.Infrastructure.csproj": {
-                "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/CVGenerate.Infrastructure.csproj"
+              "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\CVGenerate.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\CVGenerate.Infrastructure.csproj"
               }
             }
           }
@@ -44,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -83,26 +91,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj": {
+    "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj",
+        "projectUniqueName": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj",
         "projectName": "CVGenerate.Core",
-        "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj",
-        "packagesPath": "/Users/enes/.nuget/packages/",
-        "outputPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/obj/",
+        "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj",
+        "packagesPath": "C:\\Users\\zeyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/enes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zeyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -120,7 +135,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -141,34 +157,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/CVGenerate.Infrastructure.csproj": {
+    "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\CVGenerate.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/CVGenerate.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\CVGenerate.Infrastructure.csproj",
         "projectName": "CVGenerate.Infrastructure",
-        "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/CVGenerate.Infrastructure.csproj",
-        "packagesPath": "/Users/enes/.nuget/packages/",
-        "outputPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\CVGenerate.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zeyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/enes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zeyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj": {
-                "projectPath": "/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.Core/CVGenerate.Core.csproj"
+              "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj": {
+                "projectPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.Core\\CVGenerate.Core.csproj"
               }
             }
           }
@@ -182,7 +205,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -219,7 +243,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

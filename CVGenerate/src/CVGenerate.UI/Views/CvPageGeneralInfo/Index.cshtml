@@ -3,385 +3,257 @@
     Layout = "/Views/Shared/_InfoLayout.cshtml";
 }
 
+<main class="content-scrollable info-page">
+    <div class="accordion" id="accordionPanelsStayOpenExample" aria-live="polite">
 
-<div class="accordion" id="accordionPanelsStayOpenExample" aria-live="polite">
-
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne">
-                Açıklama
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-            <div class="accordion-body">
-                <form>
-                    <div class="form-group mb-3 text-start">
-                        <textarea class="form-control" id="description" rows="1"
-                            placeholder="Kişisel Açıklama Giriniz.." oninput="autoGrow(this)"></textarea>
-                    </div>
-                </form>
+        <!-- Açıklama -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
+                    Açıklama
+                </button>
+            </h2>
+            <div id="collapseDescription" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                    <textarea class="form-control" placeholder="Kişisel Açıklama Giriniz.." oninput="autoGrow(this)"></textarea>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseTwo">
-                İş Deneyimi
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <label for="title">İş Unvanı</label>
-                    <input type="text" id="title" placeholder="örn. Satış Yöneticisi" />
 
-                    <div class="row">
-                        <div>
-                            <label for="city">Şehir/İlçe</label>
-                            <input type="text" id="city" placeholder="örn. İstanbul" />
-                        </div>
-                        <div>
-                            <label for="company">İşveren</label>
-                            <input type="text" id="company" placeholder="örn. PwC" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div>
-                            <label>Başlangıç Tarihi</label>
-                            <select>
-                                <option>Yalnızca yılı göster</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Bitiş Tarihi</label>
-                            <select>
-                                <option>Şubat</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
+        <!-- === İŞ DENEYİMİ === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWork" aria-expanded="false" aria-controls="collapseWork">
+                    İş Deneyimi
+                </button>
+            </h2>
+            <div id="collapseWork" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="work-section">
+                        <div class="template-container">
+                            <form>
+                                <label>İş Unvanı</label>
+                                <input type="text" placeholder="örn. Satış Yöneticisi" />
+                                <label>Şehir/İlçe</label>
+                                <input type="text" placeholder="örn. İstanbul" />
+                                <label>İşveren</label>
+                                <input type="text" placeholder="örn. PwC" />
+                                <label>Açıklama</label>
+                                <textarea rows="2" placeholder="Kısaca açıklayın..."></textarea>
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <label for="description">Açıklama</label>
-                    <textarea id="description" rows="5"></textarea>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka iş deneyimi ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('work-section')">Bir başka iş deneyimi ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseThree">
-                Eğitim ve Nitelikler
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <label for="title">Derece</label>
-                    <input type="text" id="title" placeholder="örn. Fen Lisesi Diploması" />
 
-                    <div class="row">
-                        <div>
-                            <label for="city">Şehir/İlçe</label>
-                            <input type="text" id="city" placeholder="örn. İstanbul" />
-                        </div>
-                        <div>
-                            <label for="company">Okul</label>
-                            <input type="text" id="company" placeholder="örn. Bolu Abant İzzet Baysal Üniversitesi" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div>
-                            <label>Başlangıç Tarihi</label>
-                            <select>
-                                <option>Yalnızca yılı göster</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Bitiş Tarihi</label>
-                            <select>
-                                <option>Şubat</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
+        <!-- === EĞİTİM === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">
+                    Eğitim ve Nitelikler
+                </button>
+            </h2>
+            <div id="collapseEducation" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="education-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Derece</label>
+                                <input type="text" placeholder="örn. Lisans" />
+                                <label>Şehir/İlçe</label>
+                                <input type="text" placeholder="örn. Ankara" />
+                                <label>Okul</label>
+                                <input type="text" placeholder="örn. ODTÜ" />
+                                <label>Tanım</label>
+                                <textarea rows="2" placeholder="Kısaca açıklayın..."></textarea>
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <label for="description">Tanım</label>
-                    <textarea id="description" rows="5"></textarea>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka Eğitim ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('education-section')">Bir başka eğitim ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseFour">
-                Hobi
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <div class="row">
-                        <div>
-                            <label for="company">Hobi</label>
-                            <input type="text" id="company" placeholder="Tenis" />
+
+        <!-- === HOBİ === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseHobby" aria-expanded="false" aria-controls="collapseHobby">
+                    Hobi
+                </button>
+            </h2>
+            <div id="collapseHobby" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="hobby-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Hobi</label>
+                                <input type="text" placeholder="örn. Fotoğrafçılık" />
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka Hobi ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('hobby-section')">Bir başka hobi ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseFive">
-                Referanslar
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
 
-
-                    <div class="row">
-                        <div>
-                            <label for="title">Şirket Adı</label>
-                            <input type="text" id="title" placeholder="" />
-                        </div>
-                        <div>
-                            <label for="city">İletişim Kişisi</label>
-                            <input type="text" id="city" placeholder="" />
+        <!-- === REFERANSLAR === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseReference" aria-expanded="false" aria-controls="collapseReference">
+                    Referanslar
+                </button>
+            </h2>
+            <div id="collapseReference" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="reference-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Şirket Adı</label>
+                                <input type="text" />
+                                <label>İletişim Kişisi</label>
+                                <input type="text" />
+                                <label>Telefon</label>
+                                <input type="text" />
+                                <label>E-Posta</label>
+                                <input type="email" />
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div>
-                            <label for="title">Telefon Numarası</label>
-                            <input type="text" id="title" placeholder="" />
-                        </div>
-                        <div>
-                            <label for="city">E-Posta Adresi</label>
-                            <input type="text" id="city" placeholder="" />
-                        </div>
-
-                    </div>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka referans ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('reference-section')">Bir başka referans ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseSix">
-                Beceriler
-            </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <div class="row">
-                        <div>
-                            <label for="title">Beceri</label>
-                            <input type="text" id="title" placeholder="" />
-                        </div>
-                        <div>
-                            <label>Seviye</label>
-                            <select>
-                                <option>Uzman</option>
-                                <option>Deneyimli</option>
-                            </select>
+
+        <!-- === BECERİLER === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSkill" aria-expanded="false" aria-controls="collapseSkill">
+                    Beceriler
+                </button>
+            </h2>
+            <div id="collapseSkill" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="skill-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Beceri</label>
+                                <input type="text" />
+                                <label>Seviye</label>
+                                <select>
+                                    <option>Başlangıç</option>
+                                    <option>Orta</option>
+                                    <option>İyi</option>
+                                    <option>Uzman</option>
+                                </select>
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka beceri ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('skill-section')">Bir başka beceri ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
 
-        </h2><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseSeven">
-            Diller
-        </button>
-        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <div class="row">
-                        <div>
-                            <label for="title">Dil</label>
-                            <input type="text" id="title" placeholder="" />
-                        </div>
-                        <div>
-                            <label>Seviye</label>
-                            <select>
-                                <option>Ana Dil</option>
-                                <option>B1</option>
-                            </select>
+        <!-- === DİLLER === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseLanguage" aria-expanded="false" aria-controls="collapseLanguage">
+                    Diller
+                </button>
+            </h2>
+            <div id="collapseLanguage" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="language-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Dil</label>
+                                <input type="text" />
+                                <label>Seviye</label>
+                                <select>
+                                    <option>A1</option>
+                                    <option>A2</option>
+                                    <option>B1</option>
+                                    <option>B2</option>
+                                    <option>C1</option>
+                                    <option>C2 (Native)</option>
+                                </select>
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka dil ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('language-section')">Bir başka dil ekle</div>
+                </div>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
 
-        </h2><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseEight">
-            Kurslar
-        </button>
-        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
-            <div class="accordion-body">
-                <form>
-                    <div class="row">
-                        <div>
-                            <label for="city">Kurs</label>
-                            <input type="text" id="city" placeholder="örn. Finans 101" />
-                        </div>
-                        <div>
-                            <label for="company">Kurum</label>
-                            <input type="text" id="company" placeholder="örn. İstanbul Üniversitesi" />
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div>
-                            <label>Başlangıç Tarihi</label>
-                            <select>
-                                <option>Yalnızca yılı göster</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Bitiş Tarihi</label>
-                            <select>
-                                <option>Şubat</option>
-                            </select>
-                            <select>
-                                <option>2018</option>
-                            </select>
+        <!-- === KURSLAR === -->
+        <div class="accordion-item" draggable="true">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseCourse" aria-expanded="false" aria-controls="collapseCourse">
+                    Kurslar
+                </button>
+            </h2>
+            <div id="collapseCourse" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <div id="course-section">
+                        <div class="template-container">
+                            <form>
+                                <label>Kurs</label>
+                                <input type="text" placeholder="örn. Java 101" />
+                                <label>Kurum</label>
+                                <input type="text" placeholder="örn. BTK Akademi" />
+                                <label>Açıklama</label>
+                                <textarea rows="2"></textarea>
+                                <div class="buttons">
+                                    <button type="button">Sil</button>
+                                    <button type="submit">Kaydet</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
-
-                    <label for="description">Açıklama</label>
-                    <textarea id="description" rows="5"></textarea>
-
-                    <div class="buttons">
-                        <button type="button">🗑️ Sil</button>
-                        <button type="submit">💾 Kaydet</button>
-                    </div>
-
-                    <div class="add-another">➕ Bir başka kurs ekle</div>
-                </form>
+                    <div class="add-another" onclick="window.duplicateSection('course-section')">Bir başka kurs ekle</div>
+                </div>
             </div>
         </div>
+
     </div>
-    <br>
-    <br>
+</main>
 
+@section Scripts {
+    
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script src="~/js/info.js"></script>
 
-</div>
-</div>
-
-<a class="nav-link custom-outline-button " asp-area="" asp-controller="TemplateSelection" asp-action="Index">Şablon
-    Seç</a>
-
-<!-- Sortable.js CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
-
-
-<script>
-    // Sortable.js ile sıralama
-    var el = document.getElementById('accordionPanelsStayOpenExample');
-    var sortable = new Sortable(el, {
-        handle: '.accordion-header',  // Sadece başlık kısmından sürükleme yapılır
-        animation: 150,               // Animasyon süresi
-    });
-
-    function autoGrow(element) {
-        element.style.height = "auto";
-        element.style.height = (element.scrollHeight) + "px";
-    }
-</script>
+}

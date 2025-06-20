@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVGenerate.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14a35ec29f304241d58fab682bbe2ef6ada46c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7ce259b6e7a3c43decc66c3c91f38dce504b178")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVGenerate.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVGenerate.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
