@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\wwwroot\\css\\info.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\wwwroot\\css\\info.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\wwwroot\\js\\info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\wwwroot\\js\\info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\views\\cvpagegeneralinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\views\\cvpagegeneralinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\views\\cvpageinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\wwwroot\\js\\info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\wwwroot\\js\\info.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\wwwroot\\css\\info.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\wwwroot\\css\\info.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|c:\\users\\zeyne\\onedrive\\belgeler\\github\\cvgenerate\\cvgenerate\\src\\cvgenerate.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5F90B6-8BA4-4CA3-B30D-0609F00A1535}|src\\CVGenerate.UI\\CVGenerate.UI.csproj|solutionrelative:src\\cvgenerate.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,65 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
-              "RelativeToolTip": "src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T12:14:28.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "src\\CVGenerate.UI\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "src\\CVGenerate.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T13:34:24.788Z"
+              "WhenOpened": "2025-06-20T14:41:40.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "info.js",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\js\\info.js",
-              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\wwwroot\\js\\info.js",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\js\\info.js",
-              "RelativeToolTip": "src\\CVGenerate.UI\\wwwroot\\js\\info.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-18T12:52:02.654Z"
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "src\\CVGenerate.UI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-20T14:38:58.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "info.css",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\css\\info.css",
               "RelativeDocumentMoniker": "src\\CVGenerate.UI\\wwwroot\\css\\info.css",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\css\\info.css",
               "RelativeToolTip": "src\\CVGenerate.UI\\wwwroot\\css\\info.css",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAcwIoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAHYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-18T12:45:12.154Z"
+              "WhenOpened": "2025-06-20T14:38:21.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "src\\CVGenerate.UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T14:11:05.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
+              "RelativeToolTip": "src\\CVGenerate.UI\\Views\\CvPageInfo\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T13:57:32.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "info.js",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\js\\info.js",
+              "RelativeDocumentMoniker": "src\\CVGenerate.UI\\wwwroot\\js\\info.js",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\wwwroot\\js\\info.js",
+              "RelativeToolTip": "src\\CVGenerate.UI\\wwwroot\\js\\info.js",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T12:52:02.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageGeneralInfo\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\CVGenerate.UI\\Views\\CvPageGeneralInfo\\Index.cshtml",
               "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Belgeler\\GitHub\\CVGenerate\\CVGenerate\\src\\CVGenerate.UI\\Views\\CvPageGeneralInfo\\Index.cshtml",
               "RelativeToolTip": "src\\CVGenerate.UI\\Views\\CvPageGeneralInfo\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAgwAwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-18T12:04:15.695Z",
               "EditorCaption": ""
