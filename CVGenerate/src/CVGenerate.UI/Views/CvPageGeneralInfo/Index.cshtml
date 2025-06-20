@@ -7,7 +7,7 @@
     <div class="accordion" id="accordionPanelsStayOpenExample" aria-live="polite">
 
         <!-- Açıklama -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="description" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseDescription" aria-expanded="true" aria-controls="collapseDescription">
@@ -17,12 +17,17 @@
             <div id="collapseDescription" class="accordion-collapse collapse show">
                 <div class="accordion-body">
                     <textarea class="form-control" placeholder="Kişisel Açıklama Giriniz.." oninput="autoGrow(this)"></textarea>
+                    <div class="buttons">
+                        <button type="button" onclick="saveOrder()">Kaydet</button>
+                    </div>
                 </div>
+
             </div>
+
         </div>
 
         <!-- === İŞ DENEYİMİ === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="work" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseWork" aria-expanded="false" aria-controls="collapseWork">
@@ -43,8 +48,9 @@
                                 <label>Açıklama</label>
                                 <textarea rows="2" placeholder="Kısaca açıklayın..."></textarea>
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -55,7 +61,7 @@
         </div>
 
         <!-- === EĞİTİM === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="education" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">
@@ -76,8 +82,9 @@
                                 <label>Tanım</label>
                                 <textarea rows="2" placeholder="Kısaca açıklayın..."></textarea>
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -88,7 +95,7 @@
         </div>
 
         <!-- === HOBİ === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="hobby" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseHobby" aria-expanded="false" aria-controls="collapseHobby">
@@ -103,8 +110,9 @@
                                 <label>Hobi</label>
                                 <input type="text" placeholder="örn. Fotoğrafçılık" />
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -115,7 +123,7 @@
         </div>
 
         <!-- === REFERANSLAR === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="reference" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseReference" aria-expanded="false" aria-controls="collapseReference">
@@ -136,8 +144,9 @@
                                 <label>E-Posta</label>
                                 <input type="email" />
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -148,7 +157,7 @@
         </div>
 
         <!-- === BECERİLER === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="skill" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSkill" aria-expanded="false" aria-controls="collapseSkill">
@@ -170,8 +179,9 @@
                                     <option>Uzman</option>
                                 </select>
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -182,7 +192,7 @@
         </div>
 
         <!-- === DİLLER === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="language" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseLanguage" aria-expanded="false" aria-controls="collapseLanguage">
@@ -206,8 +216,9 @@
                                     <option>C2 (Native)</option>
                                 </select>
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -218,7 +229,7 @@
         </div>
 
         <!-- === KURSLAR === -->
-        <div class="accordion-item" draggable="true">
+        <div class="accordion-item" data-section-id="course" draggable="true">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseCourse" aria-expanded="false" aria-controls="collapseCourse">
@@ -237,8 +248,9 @@
                                 <label>Açıklama</label>
                                 <textarea rows="2"></textarea>
                                 <div class="buttons">
-                                    <button type="button">Sil</button>
-                                    <button type="submit">Kaydet</button>
+                                    <button type="button" class="clear-section">Temizle</button>
+                                    <button type="button" class="delete-section">Sil</button>
+                                    <button type="button" onclick="saveOrder()">Kaydet</button>
                                 </div>
                             </form>
                         </div>
@@ -252,8 +264,11 @@
 </main>
 
 @section Scripts {
-    
-    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
-    <script src="~/js/info.js"></script>
 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script type="module" src="~/js/info.js"></script>
 }
+
+

@@ -21,14 +21,13 @@
         outline: none !important;
         font-weight: bold;
         background-color: #e9f2ff;
-        text-decoration: none !important; /* Alt çizgiyi kaldır */
     }
 
     .info-page label {
         font-weight: 600;
         margin-top: 15px;
         display: block;
-        text-decoration: none; /* Altı çizili olmasın */
+        
     }
 
     .info-page input,
@@ -99,7 +98,6 @@
         border-bottom: 1px dashed #ccc;
     }
     .info-page .accordion-button {
-        text-decoration: none !important;
         border: none !important;
         box-shadow: none !important;
         outline: none !important;
@@ -108,34 +106,20 @@
         color: #000; /* opsiyonel: mavi yerine siyah yap */
     }
 
-        .info-page ,
-        .info-page .accordion-button:focus,
-        .info-page .accordion-button:hover,
-        .info-page .accordion-button:not(.collapsed),
-        .info-page .accordion-button * {
-            text-decoration: none !important;
-            box-shadow: none !important;
-            outline: none !important;
-        }
-.accordion-button {
-    text-decoration: none !important;
-    border: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
-    outline: none !important;
-    font-weight: normal !important;
-    background-color: #e9f2ff !important;
-    color: #000 !important;
-}
-
-    .accordion-button::after {
-        display: none !important;
-    }
 .sortable-ghost {
     opacity: 0.5;
     background: #f0f0f0;
     border-radius: 8px;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+    a:hover {
+        color: black ;
+    }
+
+
 
 
 
