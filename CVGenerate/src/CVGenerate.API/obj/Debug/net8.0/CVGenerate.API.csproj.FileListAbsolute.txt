@@ -6,10 +6,13 @@
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/CVGenerate.API.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/CVGenerate.API.pdb
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/AutoMapper.dll
+/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Azure.Core.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Azure.Identity.dll
+/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/FluentValidation.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Humanizer.dll
+/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/src/CVGenerate.API/bin/Debug/net8.0/Microsoft.Build.Locator.dll

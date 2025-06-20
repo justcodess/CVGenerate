@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CVGenerate.Application.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7ce259b6e7a3c43decc66c3c91f38dce504b178")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+839201fd4d1984c32c23a43011c17f2f3b4833f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CVGenerate.Application.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CVGenerate.Application.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

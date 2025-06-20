@@ -1,10 +1,13 @@
 using CVGenerate.Core.DTOs.Profile;
 
-namespace CVGenerate.Application.Interfaces;
-
-public interface IProfileService
+namespace CVGenerate.Application.Interfaces
 {
-    Task<ProfileDto?> GetByUserIdAsync(Guid userId);
-    Task<Guid> UpsertAsync(Guid userId, ProfileDto dto);
-    Task DeleteAsync(Guid userId);
+    public interface IProfileService
+    {
+        Task<ProfileResponseDto> CreateAsync(ProfileCreateDto dto);
+        Task<ProfileResponseDto> UpdateAsync(ProfileUpdateDto dto);
+        Task<bool> DeleteAsync(Guid id);
+        Task<ProfileResponseDto?> GetByIdAsync(Guid id);
+        Task<List<ProfileResponseDto>> GetByUserIdAsync(Guid userId);
+    }
 }

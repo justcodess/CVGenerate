@@ -1,55 +1,91 @@
-using AutoMapper;
 using CVGenerate.Application.Interfaces;
 using CVGenerate.Core.DTOs.Profile;
 using CVGenerate.Core.Entities;
-using CVGenerate.Core.Interfaces;
-using Profile = CVGenerate.Core.Entities.Profile;
+using CVGenerate.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
-
-namespace CVGenerate.Application.Services;
-
-public class ProfileService : IProfileService
+namespace CVGenerate.Application.Services
 {
-    private readonly IRepository<Profile> _repository;
-    private readonly IMapper _mapper;
-
-    public ProfileService(IRepository<Profile> repository, IMapper mapper)
+    public class ProfileService : IProfileService
     {
-        _repository = repository;
-        _mapper = mapper;
-    }
+        private readonly ApplicationDbContext _context;
 
-    public async Task<ProfileDto?> GetByUserIdAsync(Guid userId)
-    {
-        var all = await _repository.GetAllAsync();
-        var entity = all.FirstOrDefault(x => x.UserId == userId);
-        return entity is null ? null : _mapper.Map<ProfileDto>(entity);
-    }
-
-    public async Task<Guid> UpsertAsync(Guid userId, ProfileDto dto)
-    {
-        var all = await _repository.GetAllAsync();
-        var entity = all.FirstOrDefault(x => x.UserId == userId);
-
-        if (entity is null)
+        public ProfileService(ApplicationDbContext context)
         {
-            var newEntity = _mapper.Map<Profile>(dto);
-            newEntity.Id = Guid.NewGuid();
-            newEntity.UserId = userId;
-            await _repository.AddAsync(newEntity);
-            return newEntity.Id;
+            _context = context;
         }
 
-        _mapper.Map(dto, entity);
-        _repository.Update(entity);
-        return entity.Id;
-    }
+        public async Task<ProfileResponseDto> CreateAsync(ProfileCreateDto dto)
+        {
+            var profile = new Profile
+            {
+                Id = Guid.NewGuid(),
+                UserId = dto.UserId,
+                Description = dto.Description,
+                IsVisible = dto.IsVisible
+            };
 
-    public async Task DeleteAsync(Guid userId)
-    {
-        var all = await _repository.GetAllAsync();
-        var entity = all.FirstOrDefault(x => x.UserId == userId);
-        if (entity is not null)
-            _repository.Delete(entity);
+            _context.Profiles.Add(profile);
+            await _context.SaveChangesAsync();
+
+            return new ProfileResponseDto
+            {
+                Id = profile.Id,
+                UserId = profile.UserId,
+                Description = profile.Description
+            };
+        }
+
+        public async Task<ProfileResponseDto> UpdateAsync(ProfileUpdateDto dto)
+        {
+            var profile = await _context.Profiles.FindAsync(dto.Id);
+            if (profile == null) throw new Exception("Profile not found");
+
+            profile.Description = dto.Description;
+            await _context.SaveChangesAsync();
+
+            return new ProfileResponseDto
+            {
+                Id = profile.Id,
+                UserId = profile.UserId,
+                Description = profile.Description
+            };
+        }
+
+        public async Task<bool> DeleteAsync(Guid id)
+        {
+            var profile = await _context.Profiles.FindAsync(id);
+            if (profile == null) return false;
+
+            _context.Profiles.Remove(profile);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<ProfileResponseDto?> GetByIdAsync(Guid id)
+        {
+            var profile = await _context.Profiles.FindAsync(id);
+            if (profile == null) return null;
+
+            return new ProfileResponseDto
+            {
+                Id = profile.Id,
+                UserId = profile.UserId,
+                Description = profile.Description
+            };
+        }
+
+        public async Task<List<ProfileResponseDto>> GetByUserIdAsync(Guid userId)
+        {
+            return await _context.Profiles
+                .Where(p => p.UserId == userId)
+                .Select(p => new ProfileResponseDto
+                {
+                    Id = p.Id,
+                    UserId = p.UserId,
+                    Description = p.Description
+                })
+                .ToListAsync();
+        }
     }
 }

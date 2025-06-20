@@ -157,3 +157,5 @@
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/tests/CVGenerate.Infrastructure.Tests/obj/Debug/net8.0/CVGenerate.Infrastructure.Tests.pdb
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/tests/CVGenerate.Infrastructure.Tests/obj/Debug/net8.0/CVGenerate.Infrastructure.Tests.genruntimeconfig.cache
 /Users/enes/Documents/GitHub/CVGenerate/CVGenerate/tests/CVGenerate.Infrastructure.Tests/obj/Debug/net8.0/ref/CVGenerate.Infrastructure.Tests.dll
+/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/tests/CVGenerate.Infrastructure.Tests/bin/Debug/net8.0/AutoMapper.dll
+/Users/enes/Documents/GitHub/CVGenerate/CVGenerate/tests/CVGenerate.Infrastructure.Tests/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

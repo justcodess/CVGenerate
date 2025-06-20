@@ -4,10 +4,10 @@ using CVGenerate.Core.Entities;
 
 namespace CVGenerate.Application.Mappings;
 
-public class ProfileProfile : Profile
+public class ProfileProfile : AutoMapper.Profile
 {
     public ProfileProfile()
     {
-        CreateMap<ProfileDto, Profile>().ReverseMap();
+        CreateMap<ProfileDto, CVGenerate.Core.Entities.Profile>().ReverseMap();
     }
 }

@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\CVGenerate.UI.props" />
+  <Import Project="../buildMultiTargeting/CVGenerate.UI.props" />
 </Project>
